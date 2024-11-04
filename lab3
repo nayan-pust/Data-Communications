@@ -1,0 +1,94 @@
+Router>
+Router>
+Router>en
+Router#conf
+Router#configure t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#ip d
+Router(config)#ip dh
+Router(config)#ip dhcp po
+Router(config)#ip dhcp pool ICEC
+Router(dhcp-config)#dhcp
+Router(dhcp-config)#dhcp
+Router(dhcp-config)#dhcp
+Router(dhcp-config)#dhcp ex
+Router(dhcp-config)#dhcp ex
+Router(dhcp-config)#dhcp ex
+Router(dhcp-config)#exit
+Router(config)#ip dhc
+Router(config)#ip dhcp ex
+Router(config)#ip dhcp excluded-address 192.168.2.1
+Router(config)#ip dhc
+Router(config)#ip dhcp po
+Router(config)#ip dhcp pool ICEC
+Router(dhcp-config)#net
+Router(dhcp-config)#network 192.168.4.0 255.255.255.0
+Router(dhcp-config)#de
+Router(dhcp-config)#default-router 192.168.4.1
+Router(dhcp-config)#exit
+Router(config)#exit
+Router#
+%SYS-5-CONFIG_I: Configured from console by console
+wr
+Building configuration...
+[OK]
+Router#ip dhc
+Router#ip dhcp
+Router#conf
+Router#configure t
+Router#configure terminal 
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#ip dhc
+Router(config)#ip dhcp pool ICEC
+Router(dhcp-config)#net
+Router(dhcp-config)#network 192.168.4.0 255.255.255.0
+Router(dhcp-config)#def
+Router(dhcp-config)#default-router 192.168.4.1
+Router(dhcp-config)#exit
+Router(config)#exit
+Router#
+%SYS-5-CONFIG_I: Configured from console by console
+wr
+Building configuration...
+[OK]
+Router#configure terminal 
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#ip dhcp pool ICEC
+Router(dhcp-config)#exit
+Router(config)#ip dhc
+Router(config)#ip dhcp in
+Router(config)#ip dhcp in
+Router(config)#ip dhcp in
+Router(config)#ip dhcp excl
+Router(config)#ip dhcp excluded-address 192.168.4.1
+Router(config)#ip dhc
+Router(config)#ip dhcp pool ICEC
+Router(dhcp-config)#ne
+Router(dhcp-config)#network 192.168.4.0 255.255.255.0
+Router(dhcp-config)#default-router 192.168.4.1
+Router(dhcp-config)#exit
+Router(config)#exit
+Router#
+%SYS-5-CONFIG_I: Configured from console by console
+wr
+Building configuration...
+[OK]
+Router#
+Router#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#router rip
+Router(config-router)#
+Router(config-router)#end
+Router#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#interface Ethernet0/2/0
+Router(config-if)#
+%SYS-5-CONFIG_I: Configured from console by console
+ip address 192.168.4.1 255.255.255.0
+Router(config-if)#
+Router(config-if)#exit
+Router(config)#interface Ethernet0/2/0
+Router(config-if)#
+Router(config-if)#exit
+Router(config)#interface Ethernet0/2/0
+Router(config-if)#
